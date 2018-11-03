@@ -42,6 +42,11 @@ public class Distance {
 	}
 
 	public static void main(String[] args) {
-
+		Distance ds = new Distance(); 
+		try {
+			ds.query();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 }
